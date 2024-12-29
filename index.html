@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <h1>Guild Manajemen Waktu</h1>
+
+    <div class="controls">
+        <button id="penyimpanan">Atur Durasi</button>
+    </div>
+
+    <div id="modalPengaturan" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Setting Waktu Penaklukan</h2>
+            <label for="setpenaklukan">Durasi Penaklukan (Menit):</label>
+            <input type="number" id="setpenaklukan" value="25" min="1">
+            <br><br>
+            <label for="setbreak">Durasi Break (Menit):</label>
+            <input type="number" id="setbreak" value="5" min="1" readonly>
+            <br><br>
+            <label for="newpenaklukan">Jumlah Repetisi:</label>
+            <input type="number" id="newpenaklukan" value="1" min="1">
+            <br><br>
+            <button id="saveSettings">Simpan Pengaturan</button>
+        </div>
+    </div>
+
+    <div class="timer">
+        <div id="waktupenaklukan">25:00</div>
+        <div id="waktubreak" style="display: none;">05:00</div>
+    </div>
+
+    <div class="controls">
+        <button id="mulaipenaklukan">Mulai Penaklukan</button>
+        <button id="ulangpenaklukan" style="display: none;" onclick="resetPenaklukan()">Reset</button>
+    </div>
+
+    <hr>
+
+    <h1>Papan Misi</h1>
+    <input type="text" id="misibaru" placeholder="New Quest...">
+    <button id="tambahmisi">Tambah Misi</button>
+
+    <ul id="papanmisi" class="mission-list"></ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
