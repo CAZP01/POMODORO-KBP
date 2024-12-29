@@ -2,15 +2,15 @@
 
 Selamat datang di aplikasi guild manajemen waktu.
 Di sini petualang sekalian akan diubah menjadi manusia yang lebih disiplin dalam menjalani kehidupan.
-Guild ini menunjang para petualang untuk menambah, menghapus, dan menandai misi (to-do list) yang telah selesai serta mengatur jumlah interval penaklukan (pomodoro) dan durasi tiap interval.
+Guild ini menunjang para petualang untuk menambah, menghapus, dan menandai misi (to-do list) yang telah selesai serta mengatur jumlah repetisi penaklukan (pomodoro) dan durasi tiap repetisi.
 
-#Sistem Interval
+#Sistem Repetisi
 
-Saat melakukan penaklukan, para petualang dapat mengatur jumlah interval yang diperlukan. Satu interval penaklukan terdiri dari:
+Saat melakukan penaklukan, para petualang dapat mengatur jumlah repetisi yang diperlukan. Satu interval penaklukan terdiri dari:
 - Satu durasi penaklukan
 - Satu durasi break
 - Durasi break secara otomatis dihitung sebanyak 20% dari durasi penaklukan, sehingga petualang tidak memaksakan diri ataupun bermalas-malasan ketika penaklukan dimulai
-- Mengulang lagi jika interval masih berlanjut
+- Mengulang lagi jika repetisi masih berlanjut
   
 #Fitur
 - Mengatur durasi penaklukan
@@ -28,7 +28,7 @@ Sedangkan misi bisa diatur dengan menambahkan misi baru di kolom "NEW QUEST..." 
 Misi yang tersedia di PAPAN MISI bisa dihapus jika sudah tidak diperlukan dengan menekan tombol "DROP" di lembar misi yang diinginkan.
 Menekan kolom kotak yang ada di sebelah kiri lembar misi akan menandai misi tersebut sebagai misi yang telah selesai.
 Jika semua persiapan selesai, penaklukan bisa dimulai dengan menekan tombol "MULAI PENAKLUKAN" yang ditandai dengan berkurangnya durasi penaklukan.
-Setelah durasi penaklukan habis, durasi break akan muncul di bawahnya yang menandai jika break telah dimulai dan petualang diharuskan untuk istirahat, jangan sampai memaksakan diri untuk melanjutkan penaklukan. Penaklukan akan dimulai lagi jika interval belum habis.
+Setelah durasi penaklukan habis, durasi break akan muncul di bawahnya yang menandai jika break telah dimulai dan petualang diharuskan untuk istirahat, jangan sampai memaksakan diri untuk melanjutkan penaklukan. Penaklukan akan dimulai lagi jika repetisi belum habis.
 
 #Sistem Aplikasi
 
