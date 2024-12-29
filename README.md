@@ -20,6 +20,7 @@ Saat melakukan penaklukan, para petualang dapat mengatur jumlah interval yang di
 - Menghapus misi yang sudah tidak diperlukan
 
 #Penggunaan
+
 Pastikan petualang sudah menginstal file html, js, css, dan font basketball yang telah disediakan. Petualang bisa masuk ke guild dengan membuka file bernama index.html dan terhubung ke internet.
 Petualang bisa mulai melakukan persiapan sebelum memulai penaklukan dengan mengatur durasi penaklukan dan misi.
 Durasi penaklukan bisa diatur dengan menekan tombol "ATUR DURASI" dan menyimpan pengaturannya dengan menekan tombol "SIMPAN PENGATURAN" di dalam pop up.
